@@ -1,0 +1,15 @@
+{
+  "results": [
+    {
+      "food": "Anise",
+      "foodImage:": "https://ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/5e02462635aacd58-tzpjpBj1.jpg",
+      "history": "Anise is the seed of a plant in the celery family, and native to the eastern Mediterranean region and Southwest Asia. Cultivated for 4000 years in Egypt, it has been a popular spice in Italy since Roman times.",
+      "artwork": {
+        "title": "Bottle of Anis del Mono",
+        "artistName": "Pablo Picasso",
+        "medium": "Oil on Canvas",
+        "artImage": "https://upload.wikimedia.org/wikipedia/en/3/3a/Pablo_Picasso%2C_1916%2C_L%27anis_del_mono_%28Bottle_of_Anis_del_Mono%29_oil_on_canvas%2C_46_x_54.6_cm%2C_Detroit_Institute_of_Arts%2C_Michigan.jpg"
+      }
+    }
+  ]
+}
