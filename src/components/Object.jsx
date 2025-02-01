@@ -1,9 +1,22 @@
 const Object = (props) => {
   return (
-    <div>
-      <img src={props.foodImage} alt="alt text" />
-      <h2>{props.history}</h2>
-    </div>
+    <main>
+      <body id="grid">
+        <section>
+          <h3>{props.food}</h3>
+          <img src={props.foodImage} alt="food image" />
+        </section>
+
+        <section>
+          <img src={props.art} alt="art image" />
+          <h3>{props.artTitle}</h3>
+          <div>
+            Artist: {props.artist}, Medium: {props.medium}
+          </div>
+          <p>{props.history}</p>
+        </section>
+      </body>
+    </main>
   )
 }
 
