@@ -1,19 +1,21 @@
-body {
+#grid {
+  margin: 20px;
   box-sizing: border-box;
+  height: auto;
 
   background-color: plum;
-  text-decoration: black;
 
-  margin: 20px;
-  max-width: 2000px;
+  max-width: 1400px;
 
   display: grid;
-  grid-template-columns: 400px 1600px;
+  grid-template-columns: 350px 400px 550px;
+  grid-template-rows: auto;
 }
 
 nav {
   background-color: antiquewhite;
-  grid-column: span;
+  max-width: 1400px;
+  margin: 10px;
 }
 
 footer {
@@ -21,5 +23,5 @@ footer {
 }
 
 section {
-  background-color: azure;
+  background-color: rgb(87, 191, 191);
 }
