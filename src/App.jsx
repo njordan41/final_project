@@ -8,11 +8,9 @@ const App = () => {
       <div className="top">
         <h1>Food in Art</h1>
         <nav>
-          <ul>
-            <li>About</li>
-            <li>Favorite Artists</li>
-            <li>Favorite Food</li>
-          </ul>
+          <button>ABOUT</button>
+          <button>FAVORITE ARTISTS</button>
+          <button>FAVORITE FOODS</button>
         </nav>
         <h3>
           A collection of some of the food that happens to be in my kitchen that
