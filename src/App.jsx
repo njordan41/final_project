@@ -6,16 +6,18 @@ const App = () => {
   return (
     <div className="App">
       <div className="top">
-        <h1>Food in Art</h1>
         <nav>
           <button>ABOUT</button>
           <button>FAVORITE ARTISTS</button>
           <button>FAVORITE FOODS</button>
         </nav>
-        <h3>
-          A collection of some of the food that happens to be in my kitchen that
-          has been glorified in art.
-        </h3>
+        <div>
+          <h1>Food in Art</h1>
+          <h3>
+            A collection of some of the food that happens to be in my kitchen
+            that has been glorified in art.
+          </h3>
+        </div>
       </div>
       {food.results.map((object) => (
         <Object
@@ -33,7 +35,7 @@ const App = () => {
       <footer>
         Sources: The entire internet really. I just googled and copied and
         pasted a whole bunch. Occasionally, threw in my own sentence here and
-        there. Really none of this is original and I'm sure there a copy right
+        there. Really none of this is original and I'm sure there are copy right
         issues abound with this page. Please don't sue or get made about the
         blatant plagiarism. I, however, still like to copyright this page
         because the coding and idea for this page is all mine...

@@ -1,3 +1,12 @@
+h1 {
+  margin: 20px;
+  font-size: 30pt;
+}
+
+h3 {
+  margin: 20px;
+}
+
 #grid {
   margin: 20px;
   box-sizing: border-box;
